@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Daftar Nama</h2>
+    <form id="form" onsubmit="return false;">
+      <input type="text" id="name" placeholder="Nama" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <button type="submit">Tambah Pengguna</button>
+    </form>
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Email</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="functions.js"></script>
+</body>
+</html>
